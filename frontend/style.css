@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 240, 240);
+  font-family: cursive;
+  color: #565151;
+}
+/* .outer_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 0;
+} */
+.inner_div {
+  /* width: 60%; */
+  border-radius: 2px;
+  /* padding: 10px; */
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 3px 3px 10px rgb(199, 188, 188);
+}
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+.product_list,
+.cart_list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.product_list th,
+table.product_list td,
+table.cart_list th,
+table.cart_list td {
+  border: 1px solid black;
+  padding: 5px 20px;
+  text-align: center;
+}
+table.cart_list .total_column {
+  text-align: right;
+}
+table.cart_list input {
+  margin: 0 20px;
+  width: 50px;
+  text-align: center;
+}
+table.cart_list .controls {
+  font-size: 24px;
+}
+.order_btn {
+  text-align: right;
+  margin: 20px 0;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.25s;
+  font-weight: 600;
+  font-size: 16 px;
+}
+button.controls {
+  border: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #dededd;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
